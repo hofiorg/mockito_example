@@ -16,13 +16,12 @@ class ExampleTest {
 
   @Test
   void testMyFunction_withMockito() {
-    Example example = new Example() {
-      @Override
-      Api getApi() {
-        Api api = mock(Api.class);
-        when(api.getGreetings()).thenReturn("My Mock");
-        return api;
-      }
+
+    Example example = new Example();
+    example.api = () -> {
+      MyApi myApi = mock(MyApi.class);
+      when(myApi.greetings()).thenReturn("My Mock");
+      return myApi;
     };
 
     assertEquals("My Mock 12345", example.myFunction());

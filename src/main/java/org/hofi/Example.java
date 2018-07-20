@@ -1,12 +1,9 @@
 package org.hofi;
 
 class Example {
+  Api api = MyApi::new;
 
   String myFunction() {
-    return getApi().getGreetings() + " 12345";
-  }
-
-  Api getApi() {
-    return new Api();
+    return api.getMyAPI().greetings() + " 12345";
   }
 }
