@@ -1,4 +1,4 @@
-# mockito_example &middot; ![maven workflow](https://github.com/hofiorg/utils/actions/workflows/maven.yml/badge.svg)
+# mockito_example &middot; ![maven workflow](https://github.com/hofiorg/mockito_example/actions/workflows/maven.yml/badge.svg)
 Mockito Example
 
 ## Links
