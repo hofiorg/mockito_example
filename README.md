@@ -1,4 +1,4 @@
-# mockito_example [![Build Status](https://travis-ci.org/hofiorg/mockito_example.svg?branch=master)](https://travis-ci.org/hofiorg/mockito_example)
+# mockito_example &middot; ![maven workflow](https://github.com/hofiorg/utils/actions/workflows/maven.yml/badge.svg)
 Mockito Example
 
 ## Links
